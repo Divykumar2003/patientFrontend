@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <Navigationbar/>
      
+    
       <Routes>
         <Route path="/" element={<Patient/>} />
         <Route path="patient" element={<Patient/>} />
